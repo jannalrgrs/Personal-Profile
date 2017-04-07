@@ -17,22 +17,58 @@ header .intro-text{
 header .intro-text .intro-lead-text{
 	font-family:  "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-style: italic;
-	font-size: 22px;
 	line-height: 22px; /*space in between paragraph lines*/
 	margin-bottom: 25px;
 }
-header .intro-text .intro-heading{
+header .intro-heading{
 	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 600; /*font boldness*/
+	font-weight: 100px; /*font boldness*/
 	font-size: 50px;
 	line-height: 50px;
 	margin-bottom: 25px;
 
 }
+.btn{
+	display: inline-block;
+	white-space: nowrap;
+}
+/*Header "Welcome" button*/
 .btn-xl{
 	color: #ffffff;
 	background-color: #339966;
-	
+	font-size: 18px;
+	padding: 10px 20px;
+
 
 }
+.col-md-6 {
+ 	position: relative;
+ 	padding:100px 0 50px 0;
+ 	}
+ 	/*Profile IMG*/
+ .col-md-6 img {
+ 	width: 350px;
+ 	height: 300px;
+ 	border-radius: 50%;
+ 	display: block;
+ 	margin: auto;
+ 	padding: 50px;
+ }
+ .container{
+ 	padding-left:15px;
+ 	padding-right: 15px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ section h3.sect-heading{
+ 	font-size: 75px;
+ 	margin-top: 0px;
+ 	margin-bottom: 15px;
+ 	font-weight: 500px;
+ 	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+
+ }
+
 }
