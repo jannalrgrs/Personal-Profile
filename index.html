@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Janna Rogers</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- ****Note to self, the order of files ^ matters. The one you'd override goes first.-->
 
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -14,22 +16,27 @@
 <!-- jQuery -->
 <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
 <link rel="stylesheet" href="fullPage.js-master/jquery.fullPage.css">
+
+
 </head>
 
 <body>
 <!-- Introduction- Need to add Navbar -->
+<!-- Maybe add a gray box around greeting, make
+it easier to read against the background -->
 	<center><header>
 	<div class="container">
+
 		<div class="intro-text">
 			<div class="intro-lead-text"><h2>Hi, I'm Janna Rogers</h2></div>
 			<div class="intro-heading">GREAT TO MEET YOU!</div>
 		<a href="#history" class="page-scroll btn btn-xl">Welcome</a>
 		</div>
-
 	</div>
 	</center></header>
 	
 	<!-- Work/ Education  History Section -->
+
 
 <section id="history">
 	<div class="container">
@@ -46,16 +53,19 @@
 			<h3>Education</h3></div>
 		</div>
 		<div class="row">
-					<!-- Maybe put in a responsive image -->
+					<!-- Maybe put in a responsive image, make the description drop down if user wants to view -->
 				
 					<div class="col-lg-4">
 						<div class="timeline-block">
-							<div class="timeline-sub-heading"><h3>Grand Circus, July 2016-April 2017</h3></div>
+							<div class="timeline-sub-heading" id="grandcircus"><h3>Grand Circus, July 2016-April 2017</h3></div>
+							
 							<div class="timeline-detail">
 								<h4>Intro to Web Development, Parts I & II</h4>
 								<h4>DEVELOP(her) Program</h4>
 							</div>
-								<div class=timeline-detail-base>
+
+								<div class="timeline-detail-base">
+
 								<p>A scholarship-based Java bootcamp designed to bring more women into Michigan's tech sector.</p>
 								</div>
 					</div>
@@ -64,7 +74,8 @@
 							<div class="timeline-sub-heading"><h3>Saint Mary's College, May 2013</h3></div>
 							<div class="timeline-detail">
 								<h4>B.A. in Economics, May 2013</h4>
-								<p><b>Publication:</b></p>
+								<p><b>Publication:</b></p> 
+								<!-- Add link to publication -->
 								<p><i>Offshore Financial Centres: Best Strategy for Island  Economies</i></p>
 								<div class="timeline-detail-base">
 									<p>Bank of Valleta Review, 2013</p>	 	
@@ -83,6 +94,26 @@
 						</div>
 					</div>
 					
+		</div>
+		<!-- Work history -->
+		<div class="row">
+			<div class="timeline-heading">
+			<h3>Employment Experience</h3></div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+					<div class="timeline-block">
+						<div class="timeline-sub-heading"><h3>Genova Products</h3></div>
+							<div class="timeline-detail">
+								<h4>Intro to Web Development, Parts I & II</h4>
+								<h4>DEVELOP(her) Program</h4>
+							</div>
+								<div class=timeline-detail-base>
+								<p>A scholarship-based Java bootcamp designed to bring more women into Michigan's tech sector.</p>
+								</div>
+					</div>
+					</div>
+			
 		</div>
 
 	</div>

@@ -1,17 +1,27 @@
+
+
+
+
 header {
-	height: 100%;
-	padding: 0;
-	background: url('images/header.jpg') no-repeat center center fixed;
+	background: url('images/header.jpg');
+	/*height: 100%;*/
+	background-repeat: no-repeat;   
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    color: #ffffff;
+    padding-bottom: 100px;
+    
 }
 header .intro-text{
-	padding-top: 100px;
-	padding-bottom: 50px;
+	padding: 50px 50px 50px 50px;
+	border-radius: 1em;
+	margin: 40px;
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+  
+
 
 }
 header .intro-text .intro-lead-text{
@@ -36,10 +46,8 @@ header .intro-heading{
 .btn-xl{
 	color: #ffffff;
 	background-color: #339966;
-	font-size: 18px;
+	font-size: 20px;
 	padding: 10px 20px;
-
-
 }
 .col-md-6 {
  	position: relative;
