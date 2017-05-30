@@ -76,6 +76,9 @@ header .intro-heading{
  	font-weight: 500px;
  	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
  }
+ .hiddenrow{
+ 	display: none;
+ }
 
  }
 
